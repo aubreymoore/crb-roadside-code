@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>0</id>
+      <name>demo</name>
+      <size>30311</size>
+      <mode>interpolation</mode>
+      <start_frame>0</start_frame>
+      <stop_frame>30310</stop_frame>
+      <z_order>False</z_order>
+      <labels>
+        <label>
+          <name>zero</name>
+        </label>
+        <label>
+          <name>light</name>
+        </label>
+        <label>
+          <name>medium</name>
+        </label>
+        <label>
+          <name>high</name>
+        </label>
+        <label>
+          <name>non_recoverable</name>
+        </label>
+      </labels>
+    </task>
+  </meta>
+  <image id="0" name="frame_000000" width="1920" height="1080">
+    <box label="light" occluded="0" xtl="439.00" ytl="748.00" xbr="582.00" ybr="901.00">
+    </box>
+    <box label="medium" occluded="0" xtl="218.00" ytl="812.00" xbr="343.00" ybr="908.00">
+    </box>
+  </image>
+</annotations>

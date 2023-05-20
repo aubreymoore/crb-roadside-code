@@ -1,0 +1,8 @@
+Labels:  [('label', [('name', 'zero')]), ('label', [('name', 'light')]), ('label', [('name', 'medium')]), ('label', [('name', 'high')]), ('label', [('name', 'non_recoverable')])]
+Processing frame:  0
+od {'light': [[439, 748, 582, 901]], 'medium': [[218, 812, 343, 908]]}
+Result without processing:  {}
+Result:  {}
+Processing frame:  100
+Result without processing:  {}
+Result:  {}
