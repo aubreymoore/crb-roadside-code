@@ -19,3 +19,5 @@ a SpatiaLite database (default name: **output/results.db**).
 The resulting database, **output/results.db**, is used as the datasource for an interactive web map generated 
 by **QGIS** (see https://github.com/aubreymoore/Guam-CRB-web-maps for details).
 
+Important Note: Beware that installing requirements for my software is very difficult. To date, I have been
+able to clone this repo and run the sample 
