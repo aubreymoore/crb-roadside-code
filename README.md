@@ -1,6 +1,6 @@
 # crb-roadside-code
 
-This repo contains software and sample data for automated roadside surveys coconut rhinoceros beetle (CRB) damage. 
+This repo contains software and sample data for automated roadside surveys of coconut rhinoceros beetle (CRB) damage. 
 The **rawdata** folder contains georeferenced image files in **jpg** format.
 The software uses an object detector to find all coconut palms within the images to assign a -level damage index to each one. 
 A second object detector searches for v-shaped cuts in coconut palm fronds (a distinctive symptom of CRB damage).
