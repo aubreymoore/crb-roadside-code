@@ -1,7 +1,7 @@
 # crb-roadside-code
 
 This repo contains software and sample data for automated roadside surveys of coconut rhinoceros beetle (CRB) damage. 
-The **rawdata** folder contains georeferenced image files in **jpg** format.
+The **rawdata** folder contains sample data in the form of 20 georeferenced image files in **jpg** format.
 The software uses an object detector to find all coconut palms within the images to assign a 5-level damage index to each one. 
 A second object detector searches for v-shaped cuts in coconut palm fronds (a distinctive symptom of CRB damage).
 
@@ -19,5 +19,5 @@ a SpatiaLite database (default name: **output/results.db**).
 The resulting database, **output/results.db**, is used as the datasource for an interactive web map generated 
 by **QGIS** (see https://github.com/aubreymoore/Guam-CRB-web-maps for details).
 
-Important Note: Beware that installing requirements for my software is very difficult. To date, I have been
-able to clone this repo and run the sample 
+**Important Note:** Beware that installing requirements for my software is very difficult. To date, I have been
+able to clone this repo and run **code/run_all.ipynb** successfully only on my development machine. 
