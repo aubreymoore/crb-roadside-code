@@ -2,7 +2,7 @@
 
 This repo contains software and sample data for automated roadside surveys of coconut rhinoceros beetle (CRB) damage. 
 The **rawdata** folder contains georeferenced image files in **jpg** format.
-The software uses an object detector to find all coconut palms within the images to assign a -level damage index to each one. 
+The software uses an object detector to find all coconut palms within the images to assign a 5-level damage index to each one. 
 A second object detector searches for v-shaped cuts in coconut palm fronds (a distinctive symptom of CRB damage).
 
 All development was done using **Python 3.6.9** on a GPU-equipped laptop running **Ubuntu 18.0.6 LTS**.
