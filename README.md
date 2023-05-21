@@ -1,26 +1,17 @@
-
-
-# Saving code and data in a GitHub repo
-
-There is a small problem in saving the data and code in this directory in a GitHub repo because some of the code files exceed the 50 MB file size limit imposed by GitHub.
-
-```
-aubreytensor1@tensorbook:~/Desktop/Guam07$ find . -type f -size +50M
-./code_2023_03_26/object-detectors/inference_data/frozen_inference_graph_5classes.pb
-./code_2023_03_26/object-detectors/inference_data/frozen_inference_graph_3classes.pb
-./code_2023_03_26/object-detectors/inference_data/mask_rcnn_cvat_0160.h5
-```
-
-A way to get around this is to use [fileSplitMerge](https://github.com/usamakh20/fileSplitMerge). NOT YET IMPLEMENTED.
-
-# Immediate problem
-
-survey | percent trees damaged
------- | :-------------------:
-Guam05 | 21
-Guam06 | 7
-Guam07 | 7
-
-I suspect this drop is caused by a change in code. This can be determined by an experiment: simply process the Guam05 raw data using the current code base. PROCESSING NOW.
-# Guam08-roadside-code
 # crb-roadside-code
+
+This repo contains software and sample data for automated roadside surveys coconut rhinoceros beetle (CRB) damage. 
+The **rawdata** folder contains georeferenced image files in jpg format.
+The software uses an object detector to find all coconut palms within the images to assign a -level damage index to each one. 
+A second object detector searches for v-shaped cuts in coconut palm fronds (a distinctive symptom of CRB damage).
+
+All development was done using Python 3.6.9 on a GPU-equipped laptop running Ubuntu 18.0.6 LTS.
+
+Code is contained in the following Jupyter notebooks:
+
+* **code/run_all.ipynb** is the main program. It simply is runs the following notebooks.
+* **extract_gps_data.ipnb** This notebook extracts GPS coordinates from each image in the **rawdata** folder. 
+Results are stored in **rawdata/gps-data.csv**.
+* **detect_crb_damage.ipynb**
+* **create_db.ipynb**
+
