@@ -37,9 +37,13 @@ python3 -m venv env
 # Activate the new environment
 source env/bin/activate
 
+# Install required modules
+pip3 install -r requirements.txt
+
 # Register env with Jupyter lab
 python -m ipykernel --user --name=env
 
 # Open Jupyter lab and select 'env' as the kernel
 jupyter lab
 ```
+Test the installation by running all cells in **code/detect_crb_damage.ipynb**.
