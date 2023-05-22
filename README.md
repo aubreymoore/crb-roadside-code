@@ -38,7 +38,7 @@ python3 -m venv env
 source env/bin/activate
 
 # Register env with Jupyter lab
-python -m ipyernel --user --name=env
+python -m ipykernel --user --name=env
 
 # Open Jupyter lab and select 'env' as the kernel
 jupyter lab
