@@ -21,3 +21,25 @@ by **QGIS** (see https://github.com/aubreymoore/Guam-CRB-web-maps for details).
 
 **Important Note:** Beware that installing requirements for my software is very difficult. To date, I have been
 able to clone this repo and run **code/run_all.ipynb** successfully only on my development machine. 
+
+## Installation (this section is under construction)
+
+```
+# Clone this repo into a new directory
+git clone https://github.com/aubreymoore/crb-roadside-code roadside-test
+
+# Change working directory to new directory
+cd roadside-test
+
+# Create a new virtual environment
+python3 -m venv env
+
+# Activate the new environment
+source env/bin/activate
+
+# Register env with Jupyter lab
+python -m ipyernel --user --name=env
+
+# Open Jupyter lab and select 'env' as the kernel
+jupyter lab
+```
