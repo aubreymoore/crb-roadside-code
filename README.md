@@ -26,7 +26,7 @@ able to clone this repo and run **code/run_all.ipynb** successfully only on my d
 
 ```bash
 # Clone this repo into a new directory
-git clone https://github.com/aubreymoore/crb-roadside-code roadside-test
+git clone https://github.com/aubreymoore/crb-roadside-code.git roadside-test
 
 # Change working directory to new directory
 cd roadside-test
