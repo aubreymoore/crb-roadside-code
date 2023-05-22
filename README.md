@@ -24,7 +24,7 @@ able to clone this repo and run **code/run_all.ipynb** successfully only on my d
 
 ## Installation (this section is under construction)
 
-```
+```bash
 # Clone this repo into a new directory
 git clone https://github.com/aubreymoore/crb-roadside-code roadside-test
 
